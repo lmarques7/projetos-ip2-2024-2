@@ -43,3 +43,9 @@ O projeto será desenvolvido em **Java Standard Edition**, utilizando conceitos 
 
 ### **Configurações Extras**
 - **REQ15**: Permitir alteração da taxa de administração de um grupo com atualização automática das parcelas futuras.
+
+## Possíveis APIs/Bibliotecas a serem usadas
+- **Joda-Money**: Para cálculos e manipulação de valores monetários com precisão.
+- **iText**: Para geração de documentos PDF, como relatórios financeiros dos participantes e resultados dos sorteios.
+- **Google Finance**: Para consulta de índices financeiros em tempo real, como IPCA, INCC ou taxas de câmbio.
+

@@ -1,4 +1,4 @@
-# **Projeto 3: Time Share de Bens**
+# **_Time Share_ de Bens**
 
 ---
 
@@ -12,11 +12,8 @@ Imagine que um administrador oferece um quarto de hotel por 52 semanas por ano, 
 #### **Funcionamento da Compra e Reserva:**
 1. **Compra**: O usuário compra uma fração de 1/52 semanas do bem, o que significa que ele tem o direito de usar uma semana específica do ano. Por exemplo, se ele comprar a **semana 1** (de 1 a 7 de março) em 2024, ele terá direito de usar o quarto nessas datas.
 2. **Móvel no Ano Seguinte**: No próximo ano, a sua **semana 1** será automaticamente deslocada para o período correspondente em 2025, ou seja, de **8 a 15 de março**, e em 2026 a **semana 1** será de **16 a 23 de março**, e assim por diante. Esse deslocamento garante que todos os compradores, independentemente da semana que adquiriram, possam usar todas as semanas ao longo do tempo.
-
 3. **Reserva Dentro do Período**: O usuário pode fazer uma reserva para a semana correspondente ao seu direito de uso no ano vigente, sem custos adicionais. Por exemplo, se ele comprou a fração para usar de 1 a 7 de março de 2024, ele pode fazer a reserva para esse período sem taxas extras.
-
 4. **Reserva Fora do Período**: Caso o usuário queira reservar um período fora da sua fração de semana adquirida, por exemplo, uma semana diferente do seu direito de uso, ele poderá fazer a reserva, mas estará sujeito a **taxas extras**. Essas taxas são aplicadas quando o usuário tenta reservar um período fora da sua janela de tempo contratada.
-
 5. **Revenda ou Transferência de Direitos**: Caso o usuário não deseje usar sua fração de semana comprada, ele poderá **revender ou transferir** esse direito para outro usuário dentro do sistema. O comprador da fração adquirirá o direito de usar a **semana móvel** correspondente no ano seguinte.
 
 ### **Resumo do Funcionamento:**
@@ -55,3 +52,8 @@ Este modelo de *time share* oferece uma forma justa e equilibrada de dividir o u
 ### **Validações e Controle**
 - **REQ14**: Validação automática de conflitos de datas para reservas e controle de taxas adicionais para períodos fora do intervalo permitido.
 - **REQ15**: Ajuste automático do deslocamento da fração de semanas no início de cada ano (ex.: a fração de uma semana de 2024, de 1 a 7 de março, passará para 8 a 15 de março em 2025, e assim sucessivamente).
+
+## Possíveis APIs/Bibliotecas a serem usadas
+- **Google Maps API**: Para geolocalização dos bens, permitindo aos usuários visualizar a localização exata do bem em mapas interativos.
+- **Google Calendar API**: Para sincronização de reservas com calendários externos, permitindo a visualização e o gerenciamento de reservas.
+- **Twilio ou SendGrid**: Para envio de notificações por SMS ou email, mantendo os usuários informados sobre reservas, confirmações e mudanças nas frações adquiridas. 
